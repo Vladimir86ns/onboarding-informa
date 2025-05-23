@@ -16,11 +16,7 @@ export class ContentstackService {
   }
 
   async getEntries(contentType: string): Promise<any[]> {
-    try {
-      const [entries] = await this.stack.ContentType(contentType).Query().toJSON().find();
-      return entries || [];
-    } catch (error) {
-      throw error;
-    }
+    const [entries] = await this.stack.ContentType(contentType).Query().toJSON().find();
+    return entries || [];
   }
 }
