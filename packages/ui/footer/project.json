@@ -1,0 +1,9 @@
+{
+    "name": "@informa-onboarding/footer",
+    "root": "packages/ui/footer",
+    "sourceRoot": "packages/ui/footer/src",
+    "projectType": "library",
+    "targets": {},
+    "tags": []
+  }
+  

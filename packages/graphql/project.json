@@ -1,0 +1,19 @@
+{
+    "name": "@informa-onboarding/graphql",
+    "projectType": "library",
+    "sourceRoot": "packages/graphql/src",
+    "root": "packages/graphql",
+    "targets": {
+      "build": {
+        "executor": "@nx/js:tsc",
+        "outputs": ["{options.outputPath}"],
+        "options": {
+          "outputPath": "dist/packages/graphql",
+          "main": "packages/graphql/src/index.ts",
+          "tsConfig": "packages/graphql/tsconfig.lib.json"
+        }
+      }
+    },
+    "tags": []
+  }
+  

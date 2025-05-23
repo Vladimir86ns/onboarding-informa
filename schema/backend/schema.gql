@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Article {
+  uid: String!
+  title: String!
+  description: String!
+}
+
+type Query {
+  getArticles: [Article!]!
+  searchArticles(term: String!): [Article!]!
+  getArticleById(uid: String!): Article
+}

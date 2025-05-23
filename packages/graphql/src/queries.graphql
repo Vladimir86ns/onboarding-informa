@@ -1,0 +1,23 @@
+query GetArticles {
+  getArticles {
+    uid
+    title
+    description
+  }
+}
+
+query SearchArticles($term: String!) {
+  searchArticles(term: $term) {
+    uid
+    title
+    description
+  }
+}
+
+query GetArticleById($uid: String!) {
+  getArticleById(uid: $uid) {
+    uid
+    title
+    description
+  }
+}

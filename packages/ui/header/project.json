@@ -1,0 +1,9 @@
+{
+    "name": "@informa-onboarding/header",
+    "root": "packages/ui/header",
+    "sourceRoot": "packages/ui/header/src",
+    "projectType": "library",
+    "targets": {},
+    "tags": []
+  }
+  

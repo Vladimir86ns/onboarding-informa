@@ -1,0 +1,59 @@
+# compiled output
+dist
+tmp
+out-tsc
+build
+
+# dependencies
+node_modules
+
+# Yarn v2+
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+*.tsbuildinfo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Nx cache
+.nx/cache
+.nx/workspace-data
+
+# Test output
+test-output
+
+# Env
+.env
+.env.*.local
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*

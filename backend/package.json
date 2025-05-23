@@ -1,0 +1,57 @@
+{
+  "name": "@informa-onboarding/backend",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "targets": {
+      "build": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "webpack-cli build",
+          "args": [
+            "node-env=production"
+          ]
+        },
+        "configurations": {
+          "development": {
+            "args": [
+              "node-env=development"
+            ]
+          }
+        }
+      },
+      "serve": {
+        "continuous": true,
+        "executor": "@nx/js:node",
+        "defaultConfiguration": "development",
+        "dependsOn": [
+          "build"
+        ],
+        "options": {
+          "buildTarget": "@informa-onboarding/backend:build",
+          "runBuildTargetDependencies": false
+        },
+        "configurations": {
+          "development": {
+            "buildTarget": "@informa-onboarding/backend:build:development"
+          },
+          "production": {
+            "buildTarget": "@informa-onboarding/backend:build:production"
+          }
+        }
+      },
+      "test": {
+        "options": {
+          "passWithNoTests": true
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "@nestjs/cache-manager": "^3.0.1",
+    "cache-manager": "^6.4.3",
+    "cache-manager-ioredis": "^2.1.0",
+    "contentstack": "^3.25.3",
+    "ioredis": "^5.6.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../packages/graphql"
+    },
+    {
+      "path": "../packages/ui/footer"
+    },
+    {
+      "path": "../packages/ui/header"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
+  "extends": "../tsconfig.base.json"
+}
