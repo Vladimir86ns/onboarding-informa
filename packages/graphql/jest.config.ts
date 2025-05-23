@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { readFileSync } from 'fs';
 
 // Reading the SWC compilation config for the spec files
@@ -17,5 +16,5 @@ export default {
     '^.+\\.[tj]s$': ['@swc/jest', swcJestConfig],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: 'test-output/jest/coverage',
+  coverageDirectory: 'test-output/jest/coverage'
 };

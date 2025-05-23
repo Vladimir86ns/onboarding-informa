@@ -70,7 +70,7 @@
   resolved "https://registry.yarnpkg.com/@apollo/cache-control-types/-/cache-control-types-1.0.3.tgz#5da62cf64c3b4419dabfef4536b57a40c8ff0b47"
   integrity sha512-F17/vCp7QVwom9eG7ToauIKdAxpSoadsJnqIfyryLFSkLSOEqu+eC5Z3N8OXcUVStuOMcNHlyraRsA6rRICu4g==
 
-"@apollo/client@^3.13.8":
+"@apollo/client@^3.13.8", "@apollo/client@^3.9.0":
   version "3.13.8"
   resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.13.8.tgz#ef1d49a5b134c69a55e3f137164a8e323aef4e2a"
   integrity sha512-YM9lQpm0VfVco4DSyKooHS/fDTiKQcCHfxr7i3iL6a0kP/jNO5+4NFK6vtRDxaYisd5BrwOZHLJpPBnvRVpKPg==
@@ -3170,7 +3170,7 @@
   resolved "https://registry.yarnpkg.com/@nestjs/cache-manager/-/cache-manager-3.0.1.tgz#893abd4fb8450d2fe6c6692bd71688c45b2d5128"
   integrity sha512-4UxTnR0fsmKL5YDalU2eLFVnL+OBebWUpX+hEduKGncrVKH4PPNoiRn1kXyOCjmzb0UvWgqubpssNouc8e0MCw==
 
-"@nestjs/common@^10.0.2":
+"@nestjs/common@^10.0.0", "@nestjs/common@^10.0.2":
   version "10.4.17"
   resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.4.17.tgz#fa278d4b2a41a9180023d42b6899bfd290a34eeb"
   integrity sha512-NKzPA4Tb35XjlxizsT8KZb3CCX8tNKj5EnsXsTl/gZX//uAWccBsqB8BjU69x/u4/kQ0106/Kt6PP+yrHAez0w==
@@ -3750,7 +3750,7 @@
     tslib "^2.3.0"
     yargs-parser "21.1.1"
 
-"@opensearch-project/opensearch@^3.5.1":
+"@opensearch-project/opensearch@3.5.1", "@opensearch-project/opensearch@^3.5.1":
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/@opensearch-project/opensearch/-/opensearch-3.5.1.tgz#bec6e20c45d2ae57a3c6a167d3f508748f86ff69"
   integrity sha512-6bf+HcuERzAtHZxrm6phjref54ABse39BpkDie/YO3AUFMCBrb3SK5okKSdT5n3+nDRuEEQLhQCl0RQV3s1qpA==
@@ -6756,7 +6756,7 @@ content-type@^1.0.4, content-type@~1.0.4, content-type@~1.0.5:
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.5.tgz#8b773162656d1d1086784c8f23a54ce6d73d7918"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
-contentstack@^3.25.3:
+contentstack@3.25.3, contentstack@^3.25.3:
   version "3.25.3"
   resolved "https://registry.yarnpkg.com/contentstack/-/contentstack-3.25.3.tgz#feda8d875bc2757718e1ccf625e0278cddf567e7"
   integrity sha512-GOv4M3snek9nVqL0o6pNLUKwCcLLXDBW2fUJzcHwekv1zD30VCb3zcaka6BHaOBdz58at77VCBX8wRxrQy5KJA==
@@ -8840,7 +8840,7 @@ graphql-ws@^6.0.3:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-6.0.5.tgz#24adcf444602df83477b9e07cd4b57f411ada024"
   integrity sha512-HzYw057ch0hx2gZjkbgk1pur4kAtgljlWRP+Gccudqm3BRrTpExjWCQ9OHdIsq47Y6lHL++1lTvuQHhgRRcevw==
 
-graphql@^16.11.0:
+graphql@^16.11.0, graphql@^16.7.0:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.11.0.tgz#96d17f66370678027fdf59b2d4c20b4efaa8a633"
   integrity sha512-mS1lbMsxgQj6hge1XZ6p7GPhbrtFwUFYi3wRzXAC/FmYnyXMTvvI3td3rjmQ2u8ewXueaSvRPWaEcgVVOT9Jnw==
